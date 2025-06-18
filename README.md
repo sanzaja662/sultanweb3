@@ -1,1 +1,66 @@
-# sultanweb3
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sultan Web3</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: radial-gradient(circle at center, #0d0d0d 0%, #000000 100%);
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 1.1rem;
+      margin-bottom: 30px;
+    }
+
+    .btn {
+      background: #00ffe1;
+      color: #000;
+      padding: 12px 24px;
+      font-size: 1rem;
+      font-weight: bold;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      box-shadow: 0 0 15px #00ffe1;
+      transition: all 0.3s ease;
+    }
+
+    .btn:hover {
+      background: #00ccba;
+      box-shadow: 0 0 25px #00ffe1;
+    }
+
+    .stars {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: transparent url('https://media.giphy.com/media/3o7btPCcdNniyf0ArS/giphy.gif') repeat;
+      z-index: -1;
+      opacity: 0.2;
+      background-size: cover;
+    }
+  </style>
+</head>
+<body>
+  <div class="stars"></div>
+  <h1>Halo, Dunia Web3!</h1>
+  <p>Ini website pertama Sultan yang tampil keren dan modern 🎉</p>
+  <button class="btn" onclick="alert('Ayo jelajahi dunia Web3!')">Klik Saya</button>
+</body>
+</html>
